@@ -4,9 +4,9 @@ use App\Controller\AnimauxController;
 
 if (!empty($_GET) && isset($_GET["method"])) {
 
-    if ($_GET["method"] === "home") {
+    if ($_GET["method"] === "adoption") {
         $controller = new AnimauxController;
-        $controller->index();
+        $controller->adoption();
     } 
 
 }else{

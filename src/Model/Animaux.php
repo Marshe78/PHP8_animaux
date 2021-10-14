@@ -7,7 +7,7 @@ use Core\Model\DefaultModel;
  * @method Animaux|array findAll()
  * @method Animaux find($id)
  */
-class AnimauxModel extends DefaultModel{
+class Animaux extends DefaultModel{
 
     protected $table = "animaux";
 

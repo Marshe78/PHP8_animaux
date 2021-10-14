@@ -4,8 +4,8 @@ namespace App\Model;
 use Core\Model\DefaultModel;
 
 /**
- * @method Article|array findAll()
- * @method Article find($id)
+ * @method Animaux|array findAll()
+ * @method Animaux find($id)
  */
 class AnimauxModel extends DefaultModel{
 

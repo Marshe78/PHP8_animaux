@@ -1,7 +1,6 @@
-<h1>Liste des Animaux arrivés durant les 30 derniers jours</h1>
+<h1>Animaux a adoptés</h1>
 
-
-    <?php foreach( $animaux as $animaux): ?>
+<?php foreach( $animaux as $animaux): ?>
         <?= $animaux->getAnimal() ?>
         <?= $animaux->getRace() ?>
         <?= $animaux->getAge() ?>
